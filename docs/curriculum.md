@@ -23,7 +23,7 @@
 ## Progress Tracker
 
 - [ ] **Phase 0: Workspace, Cargo & CI Foundations**
-  - [ ] 0.1 — Cargo Workspace setup, `.gitignore`, initial GitHub push
+  - [x] 0.1 — Cargo Workspace setup, `.gitignore`, initial GitHub push
   - [ ] 0.2 — GitHub Actions CI (`fmt`, `clippy`, `test`)
 - [ ] **Phase 1: Core Rust Foundations**
   - [ ] 1.1 — Mini-Project 1: `dice-cli` (syntax, structs/enums, `match`, `Option`/`Result`, unit tests)
@@ -76,7 +76,7 @@
   - *Skills*: `std::thread`, `Send`/`Sync`, `mpsc` channels, `Arc<Mutex<T>>`, `rayon`, benchmarking with `criterion`, and **CD** via GitHub Actions (automated tagged release binaries).
 - **Mini-Project 6 — Game Leaderboard HTTP API (`projects/score-api`)**
   - Small REST API for submitting and querying high scores per game/level, backed by SQLite.
-  - *Skills*: `async`/`await`, `tokio`, `axum`, `sqlx` (or `rusqlite`), `tracing` structured logs, DB migrations, automated API integration tests in CI.
+  - *Skills*: `async`/`await`, `tokio`, `axum`, `sqlx` (or `rusqlite`), `tracing` structured logs, DB migrations, automated API integration tests in CI, and **multi-stage Dockerfiles** for Rust services.
 
 ### Phase 3: Game Architecture & Graphics
 - **Mini-Project 7 — Generational Arena / Mini-ECS (`projects/mini-ecs`)**
